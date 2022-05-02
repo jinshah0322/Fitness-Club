@@ -1,0 +1,15 @@
+*
+{
+	font-family: Cursive;
+}
+body
+{
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.kit
+{
+	border: 2px solid black;
+	font-size: 23px;
+}

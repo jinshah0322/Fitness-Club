@@ -1,0 +1,81 @@
+*
+{
+	font-family: tahoma;
+	color: darkgray;
+	font-weight: bold;
+}
+body
+{
+	background-image:  url(bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header
+{
+	display: flex;
+	justify-content: space-between;
+
+}
+.fitness
+{
+	text-decoration: none;
+	font-size: 25px;
+	margin: 10px;
+	font-family: Cursive;
+}
+.headings
+{
+	display: flex;
+}
+li
+{
+	list-style: none;
+	margin-right: 20px;
+}
+.coheadings
+{
+	text-decoration: none;
+	margin-right: 30px;
+}
+.information
+{
+	margin-left: 2px;
+}
+pre
+{
+	font-family: jokerman;
+}
+p
+{
+	width: 60%;
+}
+button
+{
+	background-color: black;
+	padding: 7px;
+	margin: 3px;
+	font-size: 25px;
+}
+.arrow
+{
+	height:30px ;
+}
+.contact
+{
+	background-color: black;
+}
+.socials
+{
+	height: 60px;
+	width: 60px;
+	cursor: pointer;
+}
+.start
+{
+	cursor: pointer;
+}
+.follow
+{
+	padding: 0px;
+	margin: 0px;
+}

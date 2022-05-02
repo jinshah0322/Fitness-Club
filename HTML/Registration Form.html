@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/Registration Form.css">
+	<!--<script language="javascript" src="C:\Users\jinsh\OneDrive\Desktop\IP\PROJECT-1_2121026\JAVA SCRIPT\confirmation.js"></script>-->
+	<script language="javascript" src="../JAVA SCRIPT/form_validation.js"></script>
+</head>
+<body>
+	<h1 align="center">REGISTRATION FORM</h1>
+	<hr>
+<form class="form" name="form" onsubmit="return form_validation()" method="post">
+<table border="0">
+	<tr>
+		<th align="right">NAME:<font color="red">*</font></th>
+	    <td align="left"><input type="text"class="name" name="name" autocomplete="off" id="name"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right">AGE:<font color="red">*</font></th>
+	    <td align="left"><input type="number"class="age" min="15" name="age" autocomplete="off"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right">CONTACT NO.:<font color="red">*</font></th>
+	    <td align="left"><input type="tel"class="number" pattern="[0-9]{10}" name="cnumber" autocomplete="off"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right">EMAIL:<font color="red">*</font></th>
+	    <td align="left"><input type="email"class="email" name="email" autocomplete="off"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right">HEIGHT(INCH):<font color="red">*</font></th>
+	    <td align="left"><input type="number"class="height" name="height" autocomplete="off"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right">CURRENT WEIGHT(KG):<font color="red">*</font></th>
+	    <td align="left"><input type="number"class="weight" name="cweight" autocomplete="off"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right">GOAL WEIGHT(KG):<font color="red">*</font></th>
+	    <td align="left"><input type="number"class="goalweight" name="gweight" autocomplete="off"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right">DATE OF REGISTRATION:<font color="red">*</font></th>
+		<td align="left"><input type="datetime-local" name="date"></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right">ADDRESS:</th>
+		<td align="left"><textarea rows="5" cols="22" name="address"></textarea></td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+	<tr>
+		<th align="right">WELCOME KIT:</th>
+		<td align="left">
+			<table>
+				<tr>
+					<th class="kit">SR NO.</th>
+					<th class="kit">ITEMS</th>
+				</tr>
+				<tr>
+					<td align="right" class="kit">1</td>
+					<td align="left" class="kit">Club branded bag</td>
+				</tr>
+				<tr>
+					<td align="right" class="kit">2</td>
+					<td align="left" class="kit">Branded water bottle</td>
+				</tr>
+				<tr>
+					<td align="right" class="kit">3</td>
+					<td align="left" class="kit">Branded Keychain</td>
+				</tr>
+				<tr>
+					<td align="right" class="kit">4</td>
+					<td align="left" class="kit">Window sticker for car parking</td>
+				</tr>
+				<tr>
+					<td align="right" class="kit">4</td>
+					<td align="left" class="kit">Free concession pass to bring a friend</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr></tr><tr></tr><tr></tr>
+<tr>
+	<td></td>
+	<td><button type="submit">CONFIRM ADMISSION</button><input type="reset" value="RESET">
+</tr>
+</table>
+</form>
+</body>
+</html>

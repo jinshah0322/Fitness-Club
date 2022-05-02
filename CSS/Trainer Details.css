@@ -1,0 +1,24 @@
+*
+{
+	font-family: Cursive;
+}
+body
+{
+	background-image: url(2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+table
+{
+	border: 2px solid black;
+	outline:2px dashed white;
+}
+td
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+.number
+{
+	text-align: center;
+}
